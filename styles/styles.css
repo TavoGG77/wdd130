@@ -1,9 +1,13 @@
-:root{
+:root {
     --heading-background-color: darkblue;
-    --heading-text-color: #333;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 main {
@@ -12,11 +16,6 @@ main {
 
 aside {
     width: 20rem;
-    margin: var(--padding);
-    border: var(--border);
-    padding: var(--padding);
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 
@@ -32,6 +31,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -57,4 +57,14 @@ nav a {
 
 h1 {
     color: var(--heading-background-color);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
