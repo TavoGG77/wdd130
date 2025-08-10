@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -27,7 +27,7 @@
         <a href="contact.html">Contact Us</a>
       </nav>
     </header>
-    <main >
+    <main>
       <div>
         <br>
         <h2>Contact Us</h2>
@@ -62,11 +62,11 @@
           <figcaption>Employees03</figcaption>
         </figure>
       </div>
-      <div>
-              <form>
+
+      <form>
         <fieldset>
           <legend>Contact information</legend>
-          <div class="form-item column2">
+          <div class="form-item">
             <label for="fullname">Name:</label>
             <input type="text" id="fullname" name="fullname" />
           </div>
@@ -78,25 +78,28 @@
         <fieldset>
           <legend>Ask about us</legend>
           <div class="form item column1">
-            <input type="radio" id="general" name="questions" value="General" />
-            <label for="questions">General Inquiry</label><br />
-            <input type="radio" id="reservation" name="questions" value="Reservation" />
-            <label for="reservation">Reservation Question</label><br />
-            <input type="radio" id="suggestion" name="questions" value="Suggestion" />
-            <label for="suggestion">Website Suggestion</label>
-          <div class="form-item column1">
+            <form>
+              <input type="radio" id="general" name="questions" value="General" />
+              <label for="questions">General Inquiry</label><br />
+              <input type="radio" id="reservation" name="questions" value="Reservation" />
+              <label for="reservation">Reservation Question</label><br />
+              <input type="radio" id="suggestion" name="questions" value="Suggestion" />
+              <label for="suggestion">Website Suggestion</label>
+            </form>
+          <div class="form-item">
             <br>
             <label for="feedback">Write your message here:</label><br />
             <br>
             <textarea id="feedback" name="feedback" rows="4" placeholder="Suggestions..." ></textarea>
           </div>
-          <div class="form item column1">
+          <div class="form item">
             <br>
             <input type="checkbox" id="subscribe" name="subscribe">
             <label for="subscribe">Please subscribe me to the monthly newsletter</label>
           </div>
+        </fieldset>         
           <button type="submit">Submit Form</button>
-      </div>
+      </form>     
     </main>
     <footer class="socialmedia a">
       <p>Copyright &copy; 2025, Riverline Adventures, Gustavo Guerra</p>
