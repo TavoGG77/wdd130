@@ -156,7 +156,6 @@ form {
   display: grid;
   margin: 20px;
   gap: 1rem;
-  margin: 20px auto;
 }
 fieldset {
   display: grid;
@@ -184,10 +183,4 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
 }
-iframe{
-    width: 100%;
-    max-width: 600px;
-    border: none;
-    display: block;
-    margin: 0 auto;
-}
+
