@@ -41,7 +41,7 @@ header, main, footer{
     width: 100%;
     padding: 0 1rem;
 }
-h1, h2{
+h1, h2, h3{
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -144,4 +144,39 @@ footer nav {
 footer nav a img {
     width: 32px;
     height: 32px;
+}
+form {
+  width: 550px;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+  margin: 20px;
+}
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 0.5rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 0.5rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: var(--primary-color);
+  font-size: 1.3em;
+}
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+button {
+  margin: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
 }
