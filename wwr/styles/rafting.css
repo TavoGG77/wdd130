@@ -219,7 +219,7 @@ button {
     text-align: center;
 }
 .btn-book {
-    display: inline-block;
+
     padding: 10px 20px;
     background-color: var(--secondary-color);
     color: white;
@@ -252,6 +252,12 @@ td, th {
     gap: 20px;
     margin-top: 10px;
     justify-items: center;
+}
+.trip-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 .adventure-grid-trips img {
     width: 250px;
